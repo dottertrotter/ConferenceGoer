@@ -1,0 +1,1 @@
+PODS_CONFERENCEGOER_CORDOVA_OTHER_LDFLAGS = -framework AVFoundation -framework AssetsLibrary -framework CoreLocation -framework MobileCoreServices

@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067215E7F9C54B8CAA5EA568 /* libPods-ConferenceGoer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C01ECE5232BB4110B99020B1 /* libPods-ConferenceGoer.a */; };
+		A2FD2294199EB6140058CB3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FD2293199EB6140058CB3A /* Foundation.framework */; };
+		A2FD2296199EB6140058CB3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FD2295199EB6140058CB3A /* CoreGraphics.framework */; };
+		A2FD2298199EB6140058CB3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FD2297199EB6140058CB3A /* UIKit.framework */; };
+		A2FD229E199EB6140058CB3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2FD229C199EB6140058CB3A /* InfoPlist.strings */; };
+		A2FD22A0199EB6140058CB3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FD229F199EB6140058CB3A /* main.m */; };
+		A2FD22A4199EB6140058CB3A /* CFGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FD22A3199EB6140058CB3A /* CFGAppDelegate.m */; };
+		A2FD22A6199EB6140058CB3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FD22A5199EB6140058CB3A /* Images.xcassets */; };
+		A2FD22AD199EB6140058CB3A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FD22AC199EB6140058CB3A /* XCTest.framework */; };
+		A2FD22AE199EB6140058CB3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FD2293199EB6140058CB3A /* Foundation.framework */; };
+		A2FD22AF199EB6140058CB3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FD2297199EB6140058CB3A /* UIKit.framework */; };
+		A2FD22B7199EB6140058CB3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2FD22B5199EB6140058CB3A /* InfoPlist.strings */; };
+		A2FD22B9199EB6140058CB3A /* ConferenceGoerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FD22B8199EB6140058CB3A /* ConferenceGoerTests.m */; };
+		A2FD22C3199EB6E10058CB3A /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = A2FD22C2199EB6E10058CB3A /* config.xml */; };
+		A2FD22C5199EB78B0058CB3A /* app in Resources */ = {isa = PBXBuildFile; fileRef = A2FD22C4199EB78B0058CB3A /* app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2FD22B0199EB6140058CB3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2FD2288199EB6140058CB3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2FD228F199EB6140058CB3A;
+			remoteInfo = ConferenceGoer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2FD2290199EB6140058CB3A /* ConferenceGoer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConferenceGoer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FD2293199EB6140058CB3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2FD2295199EB6140058CB3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2FD2297199EB6140058CB3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2FD229B199EB6140058CB3A /* ConferenceGoer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConferenceGoer-Info.plist"; sourceTree = "<group>"; };
+		A2FD229D199EB6140058CB3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2FD229F199EB6140058CB3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2FD22A1199EB6140058CB3A /* ConferenceGoer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConferenceGoer-Prefix.pch"; sourceTree = "<group>"; };
+		A2FD22A2199EB6140058CB3A /* CFGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFGAppDelegate.h; sourceTree = "<group>"; };
+		A2FD22A3199EB6140058CB3A /* CFGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFGAppDelegate.m; sourceTree = "<group>"; };
+		A2FD22A5199EB6140058CB3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2FD22AB199EB6140058CB3A /* ConferenceGoerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConferenceGoerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FD22AC199EB6140058CB3A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A2FD22B4199EB6140058CB3A /* ConferenceGoerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConferenceGoerTests-Info.plist"; sourceTree = "<group>"; };
+		A2FD22B6199EB6140058CB3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2FD22B8199EB6140058CB3A /* ConferenceGoerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConferenceGoerTests.m; sourceTree = "<group>"; };
+		A2FD22C2199EB6E10058CB3A /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		A2FD22C4199EB78B0058CB3A /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; name = app; path = ../app; sourceTree = "<group>"; };
+		C01ECE5232BB4110B99020B1 /* libPods-ConferenceGoer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConferenceGoer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7F4BDF0D644C22AA1EE447 /* Pods-ConferenceGoer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConferenceGoer.xcconfig"; path = "Pods/Pods-ConferenceGoer.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2FD228D199EB6140058CB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FD2296199EB6140058CB3A /* CoreGraphics.framework in Frameworks */,
+				A2FD2298199EB6140058CB3A /* UIKit.framework in Frameworks */,
+				A2FD2294199EB6140058CB3A /* Foundation.framework in Frameworks */,
+				067215E7F9C54B8CAA5EA568 /* libPods-ConferenceGoer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FD22A8199EB6140058CB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FD22AD199EB6140058CB3A /* XCTest.framework in Frameworks */,
+				A2FD22AF199EB6140058CB3A /* UIKit.framework in Frameworks */,
+				A2FD22AE199EB6140058CB3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2FD2287199EB6140058CB3A = {
+			isa = PBXGroup;
+			children = (
+				A2FD22C4199EB78B0058CB3A /* app */,
+				A2FD22C2199EB6E10058CB3A /* config.xml */,
+				A2FD2299199EB6140058CB3A /* ConferenceGoer */,
+				A2FD22B2199EB6140058CB3A /* ConferenceGoerTests */,
+				A2FD2292199EB6140058CB3A /* Frameworks */,
+				A2FD2291199EB6140058CB3A /* Products */,
+				DF7F4BDF0D644C22AA1EE447 /* Pods-ConferenceGoer.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		A2FD2291199EB6140058CB3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2FD2290199EB6140058CB3A /* ConferenceGoer.app */,
+				A2FD22AB199EB6140058CB3A /* ConferenceGoerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2FD2292199EB6140058CB3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2FD2293199EB6140058CB3A /* Foundation.framework */,
+				A2FD2295199EB6140058CB3A /* CoreGraphics.framework */,
+				A2FD2297199EB6140058CB3A /* UIKit.framework */,
+				A2FD22AC199EB6140058CB3A /* XCTest.framework */,
+				C01ECE5232BB4110B99020B1 /* libPods-ConferenceGoer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2FD2299199EB6140058CB3A /* ConferenceGoer */ = {
+			isa = PBXGroup;
+			children = (
+				A2FD22A2199EB6140058CB3A /* CFGAppDelegate.h */,
+				A2FD22A3199EB6140058CB3A /* CFGAppDelegate.m */,
+				A2FD22A5199EB6140058CB3A /* Images.xcassets */,
+				A2FD229A199EB6140058CB3A /* Supporting Files */,
+			);
+			path = ConferenceGoer;
+			sourceTree = "<group>";
+		};
+		A2FD229A199EB6140058CB3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2FD229B199EB6140058CB3A /* ConferenceGoer-Info.plist */,
+				A2FD229C199EB6140058CB3A /* InfoPlist.strings */,
+				A2FD229F199EB6140058CB3A /* main.m */,
+				A2FD22A1199EB6140058CB3A /* ConferenceGoer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2FD22B2199EB6140058CB3A /* ConferenceGoerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2FD22B8199EB6140058CB3A /* ConferenceGoerTests.m */,
+				A2FD22B3199EB6140058CB3A /* Supporting Files */,
+			);
+			path = ConferenceGoerTests;
+			sourceTree = "<group>";
+		};
+		A2FD22B3199EB6140058CB3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2FD22B4199EB6140058CB3A /* ConferenceGoerTests-Info.plist */,
+				A2FD22B5199EB6140058CB3A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2FD228F199EB6140058CB3A /* ConferenceGoer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FD22BC199EB6140058CB3A /* Build configuration list for PBXNativeTarget "ConferenceGoer" */;
+			buildPhases = (
+				3C1A063D96C44334A63BE541 /* Check Pods Manifest.lock */,
+				A2FD228C199EB6140058CB3A /* Sources */,
+				A2FD228D199EB6140058CB3A /* Frameworks */,
+				A2FD228E199EB6140058CB3A /* Resources */,
+				09A0EACC5B9D4BB79F60AF8F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConferenceGoer;
+			productName = ConferenceGoer;
+			productReference = A2FD2290199EB6140058CB3A /* ConferenceGoer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2FD22AA199EB6140058CB3A /* ConferenceGoerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FD22BF199EB6140058CB3A /* Build configuration list for PBXNativeTarget "ConferenceGoerTests" */;
+			buildPhases = (
+				A2FD22A7199EB6140058CB3A /* Sources */,
+				A2FD22A8199EB6140058CB3A /* Frameworks */,
+				A2FD22A9199EB6140058CB3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2FD22B1199EB6140058CB3A /* PBXTargetDependency */,
+			);
+			name = ConferenceGoerTests;
+			productName = ConferenceGoerTests;
+			productReference = A2FD22AB199EB6140058CB3A /* ConferenceGoerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2FD2288199EB6140058CB3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CFG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Bradley Marsh";
+				TargetAttributes = {
+					A2FD22AA199EB6140058CB3A = {
+						TestTargetID = A2FD228F199EB6140058CB3A;
+					};
+				};
+			};
+			buildConfigurationList = A2FD228B199EB6140058CB3A /* Build configuration list for PBXProject "ConferenceGoer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2FD2287199EB6140058CB3A;
+			productRefGroup = A2FD2291199EB6140058CB3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2FD228F199EB6140058CB3A /* ConferenceGoer */,
+				A2FD22AA199EB6140058CB3A /* ConferenceGoerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2FD228E199EB6140058CB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FD22C5199EB78B0058CB3A /* app in Resources */,
+				A2FD22C3199EB6E10058CB3A /* config.xml in Resources */,
+				A2FD229E199EB6140058CB3A /* InfoPlist.strings in Resources */,
+				A2FD22A6199EB6140058CB3A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FD22A9199EB6140058CB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FD22B7199EB6140058CB3A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09A0EACC5B9D4BB79F60AF8F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ConferenceGoer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C1A063D96C44334A63BE541 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2FD228C199EB6140058CB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FD22A0199EB6140058CB3A /* main.m in Sources */,
+				A2FD22A4199EB6140058CB3A /* CFGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FD22A7199EB6140058CB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FD22B9199EB6140058CB3A /* ConferenceGoerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2FD22B1199EB6140058CB3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2FD228F199EB6140058CB3A /* ConferenceGoer */;
+			targetProxy = A2FD22B0199EB6140058CB3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2FD229C199EB6140058CB3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2FD229D199EB6140058CB3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2FD22B5199EB6140058CB3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2FD22B6199EB6140058CB3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2FD22BA199EB6140058CB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2FD22BB199EB6140058CB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2FD22BD199EB6140058CB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF7F4BDF0D644C22AA1EE447 /* Pods-ConferenceGoer.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConferenceGoer/ConferenceGoer-Prefix.pch";
+				INFOPLIST_FILE = "ConferenceGoer/ConferenceGoer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2FD22BE199EB6140058CB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF7F4BDF0D644C22AA1EE447 /* Pods-ConferenceGoer.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConferenceGoer/ConferenceGoer-Prefix.pch";
+				INFOPLIST_FILE = "ConferenceGoer/ConferenceGoer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A2FD22C0199EB6140058CB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ConferenceGoer.app/ConferenceGoer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConferenceGoer/ConferenceGoer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ConferenceGoerTests/ConferenceGoerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A2FD22C1199EB6140058CB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ConferenceGoer.app/ConferenceGoer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConferenceGoer/ConferenceGoer-Prefix.pch";
+				INFOPLIST_FILE = "ConferenceGoerTests/ConferenceGoerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2FD228B199EB6140058CB3A /* Build configuration list for PBXProject "ConferenceGoer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FD22BA199EB6140058CB3A /* Debug */,
+				A2FD22BB199EB6140058CB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2FD22BC199EB6140058CB3A /* Build configuration list for PBXNativeTarget "ConferenceGoer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FD22BD199EB6140058CB3A /* Debug */,
+				A2FD22BE199EB6140058CB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2FD22BF199EB6140058CB3A /* Build configuration list for PBXNativeTarget "ConferenceGoerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FD22C0199EB6140058CB3A /* Debug */,
+				A2FD22C1199EB6140058CB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2FD2288199EB6140058CB3A /* Project object */;
+}

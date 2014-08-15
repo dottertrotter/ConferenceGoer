@@ -1,0 +1,16 @@
+PODS:
+  - Cordova (3.4.1)
+  - LigerMobile (0.1.1):
+    - Cordova (= 3.4.1)
+    - UIColor-HTMLColors (= 1.0.0)
+  - UIColor-HTMLColors (1.0.0)
+
+DEPENDENCIES:
+  - LigerMobile
+
+SPEC CHECKSUMS:
+  Cordova: 9972d908cea2848566431b87276b6ed500ecb15f
+  LigerMobile: cb1ea714ee4f070f3d49823a515fefe630ffa69f
+  UIColor-HTMLColors: fbf3e9648f1e699aa4cdb39d0cf348b7ef814be5
+
+COCOAPODS: 0.32.1
