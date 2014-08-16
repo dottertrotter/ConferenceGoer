@@ -1,6 +1,6 @@
 //  This will be called by the included PAGE.js as part of the liger initialization.
-PAGE.hello = function(){
-	HELLO.initialize();
+PAGE.home = function(){
+	HOME.initialize();
 }
 
 /* 
@@ -15,7 +15,7 @@ PAGE.childUpdates = function(args){
 }
 
 //  All of the code unique to the page's functionality
-var HELLO = {
+var HOME = {
 	initialize: function(){
 		var me = this;
 

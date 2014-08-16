@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet">
+
+    <script type="text/javascript" src="vendor/cordova.js"></script>
+    <script type="text/javascript" src="vendor/liger.js"></script>
+    <script type="text/javascript" src="vendor/page.js"></script>
+    
+    <script type="text/javascript" src="assets/js/lib/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/lib/underscore.js"></script>
+    <script type="text/javascript" src="assets/js/pages/home.js"></script>
+
+</head>
+<body>
+
+    <img src="assets/images/home.jpg" class="img-responsive" />
+    <div class="container">
+        <!-- Example row of columns -->
+        
+        <div class="row">
+            <div class="col-md-12" id="page-content">
+                <h1>Liger Conf!</h1>
+                <p>This is a description of how awesome the conference is!!!</p>
+                <p>And this is a description of how awesome the speakers are!!!</p>
+            </div>
+        </div>
+    </div>
+
+	<script>
+        PAGE.initialize("home");
+    </script>
+</body>
+</html>

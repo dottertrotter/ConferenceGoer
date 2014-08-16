@@ -7,10 +7,36 @@
     "args": [
       [
         {
-          "name": "Hello",
-          "page": "hello",
-          "title": "Hello World",
-          "accessibilityLabel": "hello"
+          "name": "Home",
+          "page": "home",
+          "title": "Home",
+          "accessibilityLabel": "home"
+        },
+        {
+          "name": "Schedule",
+          "page": "schedule",
+          "title": "Schedule",
+          "accessibilityLabel": "schedule"
+        },
+        {
+          "name": "Speakers",
+          "page": "speakers",
+          "title": "Speakers",
+          "accessibilityLabel": "speakers"
+        },
+        {
+          "name": "Contact Us",
+          "page": "email",
+          "title": "Contact Us",
+          "dialog": true,
+          "args": {
+            "toRecipients": "test@test.com",
+            "ccRecipients": "", 
+            "bccRecipients": "", 
+            "subject": "I have a question.", 
+            "body": "", 
+            "html": false
+          }
         }
       ]
     ]

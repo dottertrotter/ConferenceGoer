@@ -1,0 +1,77 @@
+[
+	{
+		"name":"Test Session A",
+		"description": "This is a test description for a conference session.",
+		"datetime": "2014-08-16T00:16:44.988Z",
+		"location": "Presentation Hall A",
+		"speaker": {
+			"name": "John Smith"
+		},
+		"materials": [
+			{
+				"name": "Source Code",
+				"url": "http://github.com"
+			}
+		]
+	},
+	{
+		"name":"Test Session B",
+		"description": "This is a test description for a conference session.",
+		"datetime": "2014-08-16T00:16:44.988Z",
+		"location": "Presentation Hall A",
+		"speaker": {
+			"name": "John Smith"
+		},
+		"materials": [
+			{
+				"name": "Source Code",
+				"url": "http://github.com"
+			}
+		]
+	},
+	{
+		"name":"Test Session C",
+		"description": "This is a test description for a conference session.",
+		"datetime": "2014-08-16T00:16:44.988Z",
+		"location": "Presentation Hall A",
+		"speaker": {
+			"name": "John Smith"
+		},
+		"materials": [
+			{
+				"name": "Source Code",
+				"url": "http://github.com"
+			}
+		]
+	},
+	{
+		"name":"Test Session D",
+		"description": "This is a test description for a conference session.",
+		"datetime": "2014-08-16T00:16:44.988Z",
+		"location": "Presentation Hall A",
+		"speaker": {
+			"name": "John Smith"
+		},
+		"materials": [
+			{
+				"name": "Source Code",
+				"url": "http://github.com"
+			}
+		]
+	},
+	{
+		"name":"Test Session E",
+		"description": "This is a test description for a conference session.",
+		"datetime": "2014-08-16T00:16:44.988Z",
+		"location": "Presentation Hall A",
+		"speaker": {
+			"name": "John Smith"
+		},
+		"materials": [
+			{
+				"name": "Source Code",
+				"url": "http://github.com"
+			}
+		]
+	}
+]
