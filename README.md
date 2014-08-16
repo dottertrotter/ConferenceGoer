@@ -7,4 +7,3 @@ To try out the app simply run a python webserver in the demo-data directory by r
     python -m SimpleHTTPServer
 
 Then open the .workspace file in XCode and Run the project.
-
