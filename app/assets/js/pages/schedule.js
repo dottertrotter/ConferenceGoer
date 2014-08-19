@@ -12,7 +12,7 @@ var SCHEDULE = {
         var me = this;
 
         me.sessions = [];
-        $.getJSON( "http://0.0.0.0:8000/sessions.json", {}, SCHEDULE.successfulFetch )
+        $.getJSON( "http://10.0.2.2:8000/sessions.json", {}, SCHEDULE.successfulFetch )
         .fail(function( jqxhr, textStatus, error ) {
             var err = textStatus + ", " + error;
             console.log( "Request Failed: " + err );

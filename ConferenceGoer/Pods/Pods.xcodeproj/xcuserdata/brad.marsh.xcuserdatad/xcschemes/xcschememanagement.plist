@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-ConferenceGoer-Cordova.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-ConferenceGoer-LigerMobile.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-ConferenceGoer-UIColor-HTMLColors.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Pods-ConferenceGoer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>233311C885764514BB2E973D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4E3336FBCDE1432BAC539294</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7767405971C3495391F10B2D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ADDF16D25E80430E80DD3653</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

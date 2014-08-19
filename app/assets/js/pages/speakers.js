@@ -12,7 +12,7 @@ var SPEAKERS = {
         var me = this;
 
         me.speakers = [];
-        $.getJSON( "http://0.0.0.0:8000/speakers.json", {}, SPEAKERS.successfulFetch )
+        $.getJSON( "http://10.0.2.2:8000/speakers.json", {}, SPEAKERS.successfulFetch )
         .fail(function( jqxhr, textStatus, error ) {
             var err = textStatus + ", " + error;
             console.log( "Request Failed: " + err );
